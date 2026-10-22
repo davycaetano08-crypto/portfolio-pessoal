@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=JetBrains+Mono:wght@400;500&display=swap">
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <div id="bar"></div>
@@ -16,7 +16,6 @@
     <a class="logo" href="#top"><i class="fa-solid fa-terminal"></i> davy.dev</a>
     <ul>
       <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#video">Vídeo</a></li>
       <li><a href="#projetos">Projetos</a></li>
       <li><a href="#stack">Tecnologias</a></li>
     </ul>
@@ -24,18 +23,42 @@
   </nav>
 </header>
 <main id="top">
-  <div class="wrap hero">
-    <div class="hero-meta rv">
-      <span class="tag"><i class="fa-solid fa-location-dot"></i> Curitiba, Brasil</span>
-      <span class="tag"><i class="fa-solid fa-circle"></i> Aberto a estágios</span>
+  <div class="ih" role="region" aria-label="Apresentação">
+    <div class="bgs"><div class="bgt"></div><div class="bgb"></div></div>
+    <h1 class="sr">Davy Caetano, engenheiro de software backend</h1>
+    <div class="ih-title" aria-hidden="true">
+      Olá, eu sou<br>
+      <span class="glow" data-text="Davy Caetano.">Davy Caetano.</span><br>
+      Engenheiro de software backend.<br>
     </div>
-    <span class="mono rv"><i class="fa-solid fa-code"></i>&nbsp; Portfólio de engenharia de software</span>
-    <h1 class="rv" style="--d:1">Construindo sistemas <em>confiáveis</em></h1>
-    <p class="rv" style="--d:2">Estudante de engenharia de software com foco em APIs, bancos de dados e arquitetura limpa. </p>
-    <div class="cta rv" style="--d:3">
+    <div class="ih-cta">
       <a class="btn primary" href="#projetos"><i class="fa-solid fa-arrow-down"></i> Meus projetos</a>
-      <a class="btn" href="#"><i class="fa-solid fa-file-arrow-down"></i> Meu currículo</a>
+      <a class="btn" href="#"><i class="fa-solid fa-file-arrow-down"></i> Baixar currículo</a>
     </div>
+    <svg class="ih-svg" width="1440" height="300" viewBox="0 0 1440 300" xmlns="http://www.w3.org/2000/svg"><defs>
+<filter id="glow-4" color-interpolation-filters="sRGB" x="-50%" y="-200%" width="200%" height="500%">
+<feGaussianBlur in="SourceGraphic" data-target-blur="4" stdDeviation="4" result="blur4" />
+<feGaussianBlur in="SourceGraphic" data-target-blur="19" stdDeviation="19" result="blur19" />
+<feGaussianBlur in="SourceGraphic" data-target-blur="9" stdDeviation="9" result="blur9" />
+<feGaussianBlur in="SourceGraphic" data-target-blur="30" stdDeviation="30" result="blur30" />
+<feColorMatrix in="blur4" result="color-0-blur" type="matrix" values="1 0 0 0 0 0 0.9803921568627451 0 0 0 0 0 0.9647058823529412 0 0 0 0 0 0.8 0" />
+<feOffset in="color-0-blur" result="layer-0-offsetted" dx="0" dy="0" data-target-offset-y="0" />
+<feColorMatrix in="blur19" result="color-1-blur" type="matrix" values="0.8156862745098039 0 0 0 0 0 0.49411764705882355 0 0 0 0 0 0.2627450980392157 0 0 0 0 0 1 0" />
+<feOffset in="color-1-blur" result="layer-1-offsetted" dx="0" dy="2" data-target-offset-y="2" />
+<feColorMatrix in="blur9" result="color-2-blur" type="matrix" values="1 0 0 0 0 0 0.6666666666666666 0 0 0 0 0 0.36470588235294116 0 0 0 0 0 0.65 0" />
+<feOffset in="color-2-blur" result="layer-2-offsetted" dx="0" dy="2" data-target-offset-y="2" />
+<feColorMatrix in="blur30" result="color-3-blur" type="matrix" values="1 0 0 0 0 0 0.611764705882353 0 0 0 0 0 0.39215686274509803 0 0 0 0 0 1 0" />
+<feOffset in="color-3-blur" result="layer-3-offsetted" dx="0" dy="2" data-target-offset-y="2" />
+<feColorMatrix in="blur30" result="color-4-blur" type="matrix" values="0.4549019607843137 0 0 0 0 0 0.16470588235294117 0 0 0 0 0 0 0 0 0 0 0 1 0" />
+<feOffset in="color-4-blur" result="layer-4-offsetted" dx="0" dy="16" data-target-offset-y="16" />
+<feColorMatrix in="blur30" result="color-5-blur" type="matrix" values="0.4235294117647059 0 0 0 0 0 0.19607843137254902 0 0 0 0 0 0.11372549019607843 0 0 0 0 0 1 0" />
+<feOffset in="color-5-blur" result="layer-5-offsetted" dx="0" dy="64" data-target-offset-y="64" />
+<feColorMatrix in="blur30" result="color-6-blur" type="matrix" values="0.21176470588235294 0 0 0 0 0 0.10980392156862745 0 0 0 0 0 0.07450980392156863 0 0 0 0 0 1 0" />
+<feOffset in="color-6-blur" result="layer-6-offsetted" dx="0" dy="64" data-target-offset-y="64" />
+<feColorMatrix in="blur30" result="color-7-blur" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.68 0" />
+<feOffset in="color-7-blur" result="layer-7-offsetted" dx="0" dy="64" data-target-offset-y="64" />
+<feMerge><feMergeNode in="layer-0-offsetted" /><feMergeNode in="layer-1-offsetted" /><feMergeNode in="layer-2-offsetted" /><feMergeNode in="layer-3-offsetted" /><feMergeNode in="layer-4-offsetted" /><feMergeNode in="layer-5-offsetted" /><feMergeNode in="layer-6-offsetted" /><feMergeNode in="layer-7-offsetted" /><feMergeNode in="layer-0-offsetted" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+    </defs></svg>
   </div>
   <div class="ticker" aria-hidden="true">
     <div>
@@ -53,11 +76,11 @@
       <div>
         <span class="mono rv">01 / Sobre mim</span>
         <h2 class="h2 rv" style="--d:1">Engenheiro em primeiro lugar, <br>curioso sempre.</h2>
-        <p class="rv" style="--d:2">Sou <strong>estudante de engenharia de software</strong> e gosto de transformar requisitos confusos em sistemas simples e bem testados. Me importo com código legível, modelos de dados coerentes e APIs que outros desenvolvedores possam usar.</p>
-        <p class="rv" style="--d:3">Fora da faculdade, crio projetos pessoais, estudo bancos de dados e pratico <strong>entregar pequenas soluções de ponta a ponta</strong>.</p>
+        <p class="rv" style="--d:2">Sou <strong>estudante de engenharia de software</strong> e gosto de transformar requisitos confusos em sistemas simples e bem testados. Me importo com código legível, modelos de dados coerentes e APIs que outros desenvolvedores gostem de usar.</p>
+        <p class="rv" style="--d:3">Fora da faculdade, crio projetos pessoais, estudo bancos de dados e pratico <strong>entregar pequenas soluções de ponta a ponta</strong>. Edite esta seção para contar a sua história.</p>
         <div class="facts rv" style="--d:4">
           <div class="fact"><b>12+</b><span>Repositórios</span></div>
-          <div class="fact"><b>4</b><span>Projetos entregues</span></div>
+          <div class="fact"><b>3</b><span>Projetos no GitHub</span></div>
           <div class="fact"><b>2029</b><span>Formatura</span></div>
         </div>
       </div>
@@ -69,65 +92,41 @@
     </div>
   </section>
 
-  <section id="video" style="padding-top:0">
-    <div class="wrap">
-      <div class="sec-head">
-        <div><span class="mono rv">02 / Vídeo</span><h2 class="rv" style="--d:1">Veja como eu trabalho.</h2></div>
-        <span class="mono rv"><i class="fa-regular fa-clock"></i>&nbsp; 90 segundos</span>
-      </div>
-      <div class="video rv">
-        <!-- Substitua o espaço reservado por: <video src="seu-video.mp4" poster="capa.jpg" controls></video> -->
-        <div class="ph"><div><i class="fa-solid fa-film"></i><small>Espaço do vídeo · 1920 × 1080</small></div></div>
-        <button class="play" aria-label="Reproduzir vídeo"><i class="fa-solid fa-play"></i></button>
-      </div>
-      <div class="video-cap rv"><span class="mono">Um passeio pelo meu projeto favorito</span><span class="mono"><i class="fa-solid fa-closed-captioning"></i>&nbsp; Legendas disponíveis</span></div>
-    </div>
-  </section>
 
   <section id="projetos" style="padding-top:0">
     <div class="wrap">
       <div class="sec-head">
-        <div><span class="mono rv">03 / Trabalhos selecionados</span><h2 class="rv" style="--d:1">Projetos de engenharia de software.</h2></div>
+        <div><span class="mono rv">02 / Trabalhos selecionados</span><h2 class="rv" style="--d:1">Projetos de engenharia de software.</h2></div>
       </div>
       <article class="proj rv" style="--i:0">
         <div class="body">
-          <span class="mono idx">Projeto 01 · API REST</span>
-          <h3>API de Controle de Gastos</h3>
-          <p>API autenticada para registrar e analisar gastos pessoais, com orçamentos por categoria, resumos mensais e contrato OpenAPI documentado.</p>
-          <div class="chips"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>JWT</span></div>
-          <div class="links"><a href="#"><i class="fa-brands fa-github"></i> Código</a><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Documentação</a></div>
+          <span class="mono idx">Projeto 01 · Site institucional</span>
+          <h3>Site da Rede de Supermercados</h3>
+          <p>Site estático e informativo para uma rede local de supermercados, organizado em módulos para crescer junto com a rede.</p>
+          <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="links"><a href="https://ornate-moonbeam-c26116.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site no ar</a></div>
         </div>
         <div class="ph"><div><i class="fa-solid fa-image"></i><small>Captura de tela · 1200 × 800</small></div></div>
       </article>
       <article class="proj rv" style="--i:1">
         <div class="body">
-          <span class="mono idx">Projeto 02 · Banco de dados</span>
-          <h3>Modelo de Reservas de Hotel</h3>
-          <p>Modelo conceitual, lógico e físico normalizado para o domínio de reservas de um hotel, com dados de exemplo, restrições e consultas analíticas.</p>
-          <div class="chips"><span>SQL</span><span>Modelagem ER</span><span>3FN</span></div>
-          <div class="links"><a href="#"><i class="fa-brands fa-github"></i> Código</a><a href="#"><i class="fa-solid fa-diagram-project"></i> Diagrama</a></div>
-        </div>
-        <div class="ph"><div><i class="fa-solid fa-image"></i><small>Diagrama ER · 1200 × 800</small></div></div>
-      </article>
-      <article class="proj rv" style="--i:2">
-        <div class="body">
-          <span class="mono idx">Projeto 03 · Front-end</span>
-          <h3>Landing Page para Negócio Local</h3>
-          <p>Página institucional responsiva e acessível, feita com HTML semântico e CSS moderno para um serviço de bairro.</p>
-          <div class="chips"><span>HTML</span><span>CSS</span><span>Acessibilidade</span></div>
-          <div class="links"><a href="#"><i class="fa-brands fa-github"></i> Código</a><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site no ar</a></div>
+          <span class="mono idx">Projeto 02 · Sistema de gestão</span>
+          <h3>Gerenciamento de Oficina</h3>
+          <p>Sistema para organizar o dia a dia de uma oficina, com cadastro de clientes e controle de ordens de serviço.</p>
+          <div class="chips"><span>HTML</span><span>JavaScript</span><span>PostgreSQL</span></div>
+          <div class="links"><a href="https://github.com/davycaetano08-crypto/Workshop-managment-system.git"><i class="fa-brands fa-github"></i> Código</a></div>
         </div>
         <div class="ph"><div><i class="fa-solid fa-image"></i><small>Captura de tela · 1200 × 800</small></div></div>
       </article>
-      <article class="proj rv" style="--i:3">
+      <article class="proj rv" style="--i:2">
         <div class="body">
-          <span class="mono idx">Projeto 04 · Automação</span>
-          <h3>Gerador de Mensagens de Cobrança</h3>
-          <p>Ferramenta de linha de comando que gera mensagens padronizadas de cobrança e lembretes de pagamento a partir de dados estruturados, economizando horas de trabalho repetitivo.</p>
-          <div class="chips"><span>Python</span><span>CLI</span><span>Testes unitários</span></div>
-          <div class="links"><a href="#"><i class="fa-brands fa-github"></i> Código</a><a href="#"><i class="fa-solid fa-book"></i> Estudo de caso</a></div>
+          <span class="mono idx">Projeto 03 · Dados</span>
+          <h3>Dashboard Financeiro</h3>
+          <p>Painel para acompanhar receitas, despesas e indicadores financeiros em um só lugar.</p>
+          <div class="chips"><span>Python</span><span>Dashboard</span><span>Flask</span></div>
+          <div class="links"><a href="https://github.com/davycaetano08-crypto/dashboard-financeiro.git"><i class="fa-brands fa-github"></i> Código</a></div>
         </div>
-        <div class="ph"><div><i class="fa-solid fa-image"></i><small>Captura do terminal · 1200 × 800</small></div></div>
+        <div class="ph"><div><i class="fa-solid fa-image"></i><small>Captura de tela · 1200 × 800</small></div></div>
       </article>
     </div>
   </section>
@@ -135,7 +134,7 @@
   <section id="stack" style="padding-top:40px">
     <div class="wrap">
       <div class="sec-head">
-        <div><span class="mono rv">04 / Ferramentas</span><h2 class="rv" style="--d:1">Com o que eu trabalho.</h2></div>
+        <div><span class="mono rv">03 / Ferramentas</span><h2 class="rv" style="--d:1">Com o que eu trabalho.</h2></div>
       </div>
       <div class="stack">
         <div class="card rv"><i class="fa-solid fa-server"></i><h4>Backend</h4><p>Python, Node.js, design de APIs REST e autenticação.</p></div>
@@ -148,11 +147,11 @@
 
   <section id="contato" class="contact">
     <div class="wrap">
-      <span class="mono rv">05 / Contato</span>
+      <span class="mono rv">04 / Contato</span>
       <h2 class="rv" style="--d:1">Vamos construir <em>algo</em> juntos.</h2>
       <a class="btn primary rv" style="--d:2" href="mailto:voce@exemplo.com"><i class="fa-solid fa-envelope"></i> davy.caetano08@gmail.com</a>
       <div class="socials rv" style="--d:3">
-        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://github.com/davycaetano08-crypto" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
         <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
         <a href="#" aria-label="Currículo"><i class="fa-solid fa-file-lines"></i></a>
       </div>
@@ -160,6 +159,6 @@
   </section>
 </main>
 <footer><div class="wrap"><span class="mono">© 2026 Davy Caetano</span><span class="mono">Feito com HTML, CSS e JavaScript</span></div></footer>
-<script src="script.js"></script>
+<script defer src="js/main.js"></script>
 </body>
 </html>

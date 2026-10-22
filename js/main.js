@@ -1,0 +1,31 @@
+/* Barra de progresso do scroll e animações de entrada */
+(function(){
+  var bar=document.getElementById('bar'),root=document.documentElement,ticking=false;
+  
+  function onScroll(){
+    var y=window.scrollY,max=root.scrollHeight-window.innerHeight;
+    bar.style.transform='scaleX('+(max>0?y/max:0)+')';
+    ticking=false;
+  }
+
+  window.addEventListener('scroll',function(){
+    if(!ticking){
+      ticking=true;
+      requestAnimationFrame(onScroll);
+    }
+  },{passive:true});
+
+  onScroll();
+  var els=document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){
+    els.forEach(function(e){e.classList.add('in')});
+    return;
+  }
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){if(en.isIntersecting){
+      en.target.classList.add('in');
+      io.unobserve(en.target);
+    }});
+  },{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+  els.forEach(function(e){io.observe(e)});
+})();
