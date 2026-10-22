@@ -7,7 +7,7 @@ portfolio-site/
   index.html          estrutura e textos (pt-BR)
   css/styles.css      paleta, layout, hero com brilho e animações
   js/main.js          barra de progresso e revelação ao rolar
-  assets/img/         imagens (substituem os placeholders)
+  assets/img/         imagens WebP usadas no site e favicon.ico
 ```
 
 ## Como abrir
